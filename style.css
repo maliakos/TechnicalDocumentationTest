@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(247, 231, 212);
+    color: rgb(5, 5, 5);
+    font-size: larger;
+    
+}
+#navbar{
+    position: fixed;
+    background-color: rgb(234, 255, 236);
+    border-style: ;
+    border-radius: 5%; 
+}
+.nav-link{
+display:flex;
+flex-flow: column;
+
+}
+@media(max-width:500px){
+    .nav-link{
+        flex-flow:column,wrap;
+    }
+}
+header{
+font-size: large;
+color: darkred;
+}
+
+code{
+    font-weight: lighter;
+    border: 1px solid grey;
+    padding: 1px;
+}
+
+
+.code-grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+
+}
+.code-grid >span {
+    padding: 8px 4px;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+}
